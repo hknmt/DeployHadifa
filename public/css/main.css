@@ -1,0 +1,280 @@
+﻿body {
+	background: #f1f1f1;
+	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+hr {
+	border-color: #bfbfbf;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	margin-bottom: 7px;
+}
+.clear {
+	clear: both;
+	overflow: auto;
+	zoom: 1;
+}
+#logo {
+	float: left;
+}
+#logo a  img{
+	padding-top: 20px;
+}
+#header-right {
+	float: right;
+}
+/*Search - Box*/
+#search-box{
+	background: #ffffff;
+	color: #bfbfbf;
+	font-style: italic;
+	float:right;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+#search-box span {
+	padding: 0px 5px;
+	font-size:150%;
+	color: #000;
+	vertical-align:middle;
+}
+#search-box .form-group {
+	float:left;
+}
+#search-box button {
+	border: none;
+	color: #000;
+	background: #fec10d;
+	padding: 7px 12px;
+	font-style: normal;
+}
+#form-search{
+	border-style: none;
+	padding: 7px 15px;
+}
+/*Nav Bar*/
+#navbar {
+	text-transform: uppercase;
+	display:block;
+	margin-right: 17px;
+	margin-bottom: 15px;
+}
+#navbar ul {
+	list-style: none;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li a {
+	color: #000;
+	padding: 15px 10px;
+}
+#navbar ul li a:hover{
+	background: #fec10d;
+	color: #000;
+	text-decoration: none;
+}
+#child-active a {
+	color: #ffc20f;
+	font-weight: bold;
+}
+#lang {
+	float:right;
+}
+/*body*/
+.title {
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.title .block {
+	float: left;
+	display: inline-block;
+	background: #fec10d;
+	width: 30px;
+	height: 30px;
+}
+.title h4 {
+	display: inline-block;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.title hr {
+	margin: 0px;
+}
+.title p {
+	float: right;
+	margin-top: 12px;
+	background: #fec10d;
+	padding-left: 25px;
+}
+.title button {
+	border: none;
+	background: #fec10d;
+	font-size: 90%;
+	padding: 10px 15px;
+}
+.box {
+	margin-left: 30px;
+}
+.box img {
+	float: left;
+	margin-right: 20px;
+}
+.box p {
+	text-align: justify;
+}
+.box h5 {
+	text-transform: uppercase;
+}
+.box .thumbnail{
+	border: none;
+	background: #f1f1f1;
+}
+.box .name-gallery {
+	float: left;
+	font-size: 90%;
+	max-width: 60%;
+	text-align: justify;
+}
+.box .bt-gallery {
+	float: right;
+	color: #fec10d;
+	font-style: italic;
+}
+.box .bt-gallery button {
+	padding: 2px 15px;
+	background: #ffffff;
+	border: none;
+	font-size: 90%;
+}
+.box .img-gallery {
+	margin-bottom: 10px;
+}
+.readmore {
+	float: right;
+	background: #ffffff;
+	margin-top: 15px;
+}
+.readmore a{
+	display: block;
+	padding: 7px 20px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+/*Side Bar*/
+#sidebar {
+	text-transform: uppercase;
+}
+#sidebar h4 {
+	background: #59595b;
+	padding: 10px 41px;
+	color: #ffffff;
+}
+#sidebar h4:first-child {
+	background: #fec10d;
+	color: #000;
+}
+#sidebar li{
+	padding: 10px 20px;
+	border-bottom: 1px solid #bfbfbf;
+}
+#sidebar li:last-child {
+	border: none;
+}
+#sidebar li>span {
+	margin-right: 10px;
+}
+#sidebar p {
+	width:50%;
+	display: inline-block;
+	border: 1px solid #bfbfbf;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#sidebar a {
+	display: inline-block;
+	margin: auto;
+}
+/*Footer*/
+#footer {
+	background: #59595b;
+	padding-top: 15px;
+	color: #ffffff;
+}
+#footer h5 {
+	text-transform: uppercase;
+}
+#footer li {
+	margin-bottom: 10px;
+}
+#footer p {
+	margin-top: 20px;
+}
+#footer p>span {
+	color: #fec10d;
+	font-weight: bold;
+}
+#menu {
+	list-style-image: url('../img/square.jpg');
+	text-transform: capitalize;
+}
+#menu a{
+	color: #ffffff;
+}
+#contact p {
+	display: inline;
+}
+#contact img {
+	margin-left: -33px;
+	margin-right: 10px;
+}
+/*about*/
+#content-about {
+	margin-top: 30px;
+}
+#description {
+	font-weight: bold;
+}
+#value {
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: #59595b;
+}
+#value .row {
+	margin-top: 30px;
+}
+#value h4 {
+	font-weight: bold;
+}
+#value .img-value {
+	width: 210px;
+	height: 210px;
+	background: #bdbdbd;
+}
+.img-value img {
+	margin-top: 25px;
+	margin-left: 35px;
+}
+#value .row .col-lg-4 h3 {
+	font-weight: bolder;
+	text-align: center;
+	margin: 0;
+}
+#value p {
+	text-align: center;
+	color: #fec10d;
+	font-size: 24px;
+	margin-top: 20px;
+}
